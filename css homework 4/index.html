@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Font Styles Cards</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@600&display=swap" rel="stylesheet" />
+
+  <!-- Local Fonts -->
+  <style>
+    @font-face {
+      font-family: 'MyPlayfair';
+      src: url('fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'MyRoboto';
+      src: url('fonts/Roboto-Regular.ttf') format('truetype');
+    }
+  </style>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 class="title">Font Styles Cards</h1>
+
+  <div class="card-container">
+    <!-- Google Font 1 -->
+    <div class="card montserrat">
+      <div class="icon">👟</div>
+      <h2>Urban Sneaks</h2>
+      <p>Step into Style & Comfort</p>
+      <small>Font: Montserrat (Google Font)</small>
+    </div>
+
+    <!-- Google Font 2 -->
+    <div class="card opensans">
+      <div class="icon">🏔</div>
+      <h2>Trailblazer Boots</h2>
+      <p>Conquer Any Terrain</p>
+      <small>Font: Open Sans (Google Font)</small>
+    </div>
+
+    <!-- Local Font 1 -->
+    <div class="card myplayfair">
+      <div class="icon">👠</div>
+      <h2>Elegant Heels</h2>
+      <p>Sophistication for Evenings</p>
+      <small>Font: Playfair Display (Local Font)</small>
+    </div>
+
+    <!-- Local Font 2 -->
+    <div class="card myroboto">
+      <div class="icon">⏱</div>
+      <h2>Athletic Sprinters</h2>
+      <p>Boost Your Run</p>
+      <small>Font: Roboto (Local Font)</small>
+    </div>
+
+    <!-- Default Font 1 -->
+    <div class="card arial">
+      <div class="icon">👞</div>
+      <h2>Casual Loafers</h2>
+      <p>Effortless Everyday Wear</p>
+      <small>Font: Arial (Default)</small>
+    </div>
+
+    <!-- Default Font 2 -->
+    <div class="card verdana">
+      <div class="icon">❄</div>
+      <h2>Winter Mukluks</h2>
+      <p>Warmth in Every Step</p>
+      <small>Font: Verdana (Default)</small>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.parent{
+    margin: 40px;
+    color: #04ded3;
+}
+
+.child{
+    margin: inherit;
+    color: rgb(255, 170, 170);
+} */
+
+
+
+ .header{
+    color: blueviolet;
+}
+.footer{
+    color: brown;
+}
+
